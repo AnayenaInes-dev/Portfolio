@@ -1,0 +1,162 @@
+ <!-- langage de programmation -->
+    <div class="carte" id="lp">
+        <h4> Langage de programmation & balisage </h4> <br>
+        <div class="row">
+
+            <div class="col">
+                <p> HTML </p>
+            </div> <br>
+            <div class="col">
+                <p> CSS </p>
+            </div> <br>
+            <div class="col">
+                <p> Javascript </p>
+            </div> <br>
+            <div class="col">
+                <p> Node js </p>
+            </div> <br>
+            <div class="col">
+                <p> Next js </p>
+            </div> <br>
+        </div>
+    </div>
+    <!-- bases de données -->
+    <div class="carte" id="bd">
+        <h4> Bases de données </h4> <br>
+        <div class="row">
+            <div class="col">
+                <p>MySQL</p>
+            </div> <br>
+            <div class="col">
+                <p>PostgreSQL</p>
+            </div> <br>
+        </div>
+    </div>
+    <!-- design graphique -->
+    <div class="carte" id="dg">
+        <h4> Design graphique</h4> <br>
+        <div class="col">
+            <p>Figma</p>
+        </div> <br>
+        <div class="col">
+            <p>Canva</p>
+        </div> <br>
+    </div>
+</div>
+
+_____________________________________
+.competences div.cartes {
+    width: 90%;
+    height: 85%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    /* margin: 1% auto auto auto; */
+    border-radius: 8px;
+    /* border: 1.5px solid rgb(89, 88, 88); */
+}
+
+.competences .cartes div.carte {
+    width: 20vw;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding: 12px 12px;
+    border-radius: 4px;
+    border: 1.4px solid blueviolet;
+}
+
+.competences .cartes div.carte h4 {
+    text-align: center;
+    font-family: var(--sousTitre);
+    font-weight: 500;
+    margin-bottom: 4%;
+}
+
+.cartes .carte .row {
+    max-width: 18em;
+    max-height: 14vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 12px;
+    border: 1px solid gray;
+}
+
+.cartes .carte .col {
+    width: 5vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1.4px solid orange;
+}
+
+.cartes .carte .col p {
+    text-align: center;
+}
+
+
+.cartes .carte .row hr.barre-grise {
+    width: 100%;
+    height: 6px;
+    border: hidden;
+    border-radius: 5px;
+    background-color: rgb(246, 226, 251);
+}
+
+.cartes .carte .row hr.barre-coloree {
+    position: absolute;
+    /* left: %; */
+    /* width: 15vw; */
+    height: 6px;
+    border-radius: 5px;
+    border: hidden;
+    background-color: plum;
+}
+_____________________________________
+
+/* .competences div.carte #bd,
+.competences div.carte #dg{
+    width: 50%; 
+    height: 25vh;
+} */
+
+.competences div.carte h3 {
+    text-align: center;
+    font-family: var(--sousTitre);
+    font-size: medium;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.carte div.icone{
+    width: 90%;
+    height: 15%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.69% 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 6px;
+    border: 1.2px solid transparent;
+}
+
+_____________________________________
+
+<div class="image">
+    <img src="images/Hand-coding-rafiki.png" alt="Work illustrations by Storyset">
+</div>
+<div class="info">
+    <p> Inès Anayena </p>
+    <p> <span> Développeur Web Junior </span> </p> <br>
+    <p>
+        Développeur web junior en pleine évolution.
+        Je façonne des interfaces intuitives et dynamiques, où
+        chaque détail compte du style au comportement.
+    </p>
+</div>
