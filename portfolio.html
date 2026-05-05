@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
-    <script async src="carrousel.js"></script>
+    <script async src="/util/carrousel.js"></script>
+    <!-- <script async src="/util/lienActif.js"></script> -->
     <title>Portfolio</title>
 </head>
 
@@ -14,24 +15,26 @@
         <!-- <div> -->
         <!-- <span class="logo">Inès A.</span> -->
         <nav>
-            <a href="#accueil"> Accueil </a>
-            <a href="#apropos"> A Propos </a>
-            <a href="#competences"> Compétences </a>
-            <a href="#projets"> Projets </a>
-            <a href="#contacts"> Contacts </a>
+            <a href="#accueil" class="lien actif"> Accueil </a>
+            <a href="#apropos" class="lien"> A Propos </a>
+            <a href="#competences" class="lien"> Compétences </a>
+            <a href="#projets" class="lien"> Projets </a>
+            <a href="#contacts" class="lien"> Contacts </a>
         </nav>
         <!-- </div> -->
     </header>
 
     <main class="accueil" id="accueil">
-        <section class="profil">
-            <hgroup>
-                <p style="font-size: 25px;"> Inès Anayena </p>
-                <p style="font-size: 23px;"> <span> Développeur Web Junior </span> </p> <br>
-            </hgroup>
-            <!-- <img src="images/Ines.jpg" alt="Ines A." class="ancre"> -->
-            <div>
-                <p>
+        <section >
+            <div class="photo">
+                <img src="images/Ines.png" alt="Ines A. auteur du site">
+            </div>
+            <div class="profil">
+                <hgroup>
+                    <p style="font-size: 25px;"> Inès Anayena </p>
+                    <p style="font-size: 23px;"> <span> Développeur Web Junior </span> </p> <br>
+                </hgroup>
+                <p id="texte">
                     Développeur web junior en pleine évolution.
                     Je façonne des interfaces intuitives et dynamiques, où
                     chaque détail compte du style au comportement.
@@ -109,7 +112,10 @@
     <section class="competences" id="competences">
         <h1>Compétences</h1>
         <div class="conteneur">
-            <aside class="droite"></aside>
+            <aside class="droite">
+                <img src="/images/Developer-activity-cuate.png" alt="Work illustrations by Storyset">
+                <!-- <img src="/images/Developer-activity-cuate.png" alt="´<a href="https://storyset.com/work">´Work illustrations by Storyset</a>"> -->
+            </aside>
 
             <aside class="gauche">
                 <div class="carte" id="lp">
